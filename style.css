@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eeeeee;
+  color: #222222;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+}
+
+.game-wrap {
+  width: min(100%, 1080px);
+  padding: 20px 28px 28px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font-size: 24px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fafafa;
+  border: 2px solid #333333;
+}
